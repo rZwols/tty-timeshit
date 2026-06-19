@@ -19,9 +19,9 @@ int main (int argc, char **argv) {
         switch (c) {
         case 'h':
             printf(
-                "usage:                         \n"
-                "   -h      shows this message  \n"
-                "   -s      set your birthday   \n"
+                "usage:                                     \n"
+                "   -h                  shows this message  \n"
+                "   -s [yyyy/mm/dd]     set your birthday   \n"
             );
             exit(EXIT_SUCCESS);
             break;
